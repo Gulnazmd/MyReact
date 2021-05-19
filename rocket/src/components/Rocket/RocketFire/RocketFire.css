@@ -1,0 +1,26 @@
+.Fire {
+    width: 50px;
+    height: 100px;
+    background-color: rgb(255, 72, 0);
+    border-radius: 5px 5px 50% 50%;
+    margin-left: 2px;
+    transform: translateY(0);
+    opacity: 1;
+    animation: fire 2s ease-in infinite;
+}
+@keyframes fire {
+    from {
+        background-color: coral;
+    };
+    to {
+        background-color: rgb(255, 72, 0);;
+    }
+}
+
+.FireContainer {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}

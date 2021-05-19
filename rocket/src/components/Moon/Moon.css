@@ -1,0 +1,38 @@
+.Moon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(#ffefcf, #fad586);
+    position: absolute;
+    z-index: -2;
+    top: 20px;
+    left: 60%;
+}
+.MoonBtn {
+    margin-top: 80px;
+    left: 57%;
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    background: linear-gradient( #5f939a, #A8D5FF);
+    color: #fff;
+    position: absolute;
+    outline: none;
+    transition: 'all 4s ease-in';
+    opacity: 0;
+    cursor: pointer;
+}
+.MoonBtn:before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 30px;
+	background: rgba(255,255,255,0.3);
+	border-radius: 15px;
+	transition: all 1.5s ease;
+}
+.MoonBtn:hover:before {
+	width: 100%;
+}
