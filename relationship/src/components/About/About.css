@@ -1,0 +1,27 @@
+h1 {
+    color: #fff;
+    z-index: 100;
+    text-transform: uppercase;
+}
+.About {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: 15%;
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .About {
+        margin-left: 50px;
+        margin-top: 15%;
+        width: 70%;
+    }
+ }
+.Leaf {
+    position: absolute;
+    z-index: -2;
+    height: 150px;
+    width: 230px;
+    margin-left: -150px;
+}
+

@@ -1,0 +1,14 @@
+.MyArticle {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+    opacity: 40%;
+    border-radius: 15px;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 2%;
+}
