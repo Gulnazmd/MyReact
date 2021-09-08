@@ -1,0 +1,8 @@
+.Mydiv {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: auto;
+}

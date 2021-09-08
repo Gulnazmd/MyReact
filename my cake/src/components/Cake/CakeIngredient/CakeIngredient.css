@@ -1,0 +1,62 @@
+.Main {
+  height: 60px;
+  width: 300px;
+  background: linear-gradient(#ff7171, #ffbdb3);
+  border-radius: 5px 5px 30px 30px;
+  box-shadow: inset -15px 0 #fe7968;
+  margin: auto;
+}
+
+.Main2 {
+  height: 50px;
+  width: 300px;
+  background: linear-gradient(#ff7171, #ffbdb3);
+  border-radius: 30% 30% 5px 5px;
+  box-shadow: inset -15px 0 #fe7968;
+  position: relative;
+  margin: auto;
+}
+.Chocolate {
+  width: 300px;
+  height: 40px;
+  background: linear-gradient(#7f3608, #702e05);
+  border-radius: 5px;
+  margin: auto;
+}
+
+.Cream {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(216, 86, 108);
+  margin: auto;
+}
+.Cream1 {
+  width: 300px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: cornsilk;
+  margin: auto;
+}
+.Drip1 {
+  top: 53px;
+  left: 5px;
+  transform: skewY(15deg);
+  height: 48px;
+  width: 40px;
+  margin: auto;
+}
+
+.Drip2 {
+  top: 69px;
+  left: 181px;
+  transform: skewY(-15deg);
+}
+
+.Drip3 {
+  top: 54px;
+  left: 90px;
+  width: 80px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}

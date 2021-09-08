@@ -1,0 +1,33 @@
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #f4cca4;
+    color: #fff;
+    height: 50px;
+    position: relative;
+    text-decoration: none;
+    margin-top: -10px;
+    padding-top: 20px;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: left;
+    justify-content: left;
+    margin-top: 0px;
+    font-size: large;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline;
+    padding: 17px;
+}
+a:hover {
+    color: brown;
+}

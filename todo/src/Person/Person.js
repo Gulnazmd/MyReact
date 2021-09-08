@@ -1,15 +1,28 @@
 import React from 'react';
+import Radium from 'radium';
+//import CopyExample from './Copy/Copy';
+import PropTypes from 'prop-types';
 
 import './Person.css';
 
 const person = (props) => {
      return (
           <div className="Person">
-               <p onClick={props.click}>I'm {props.name} and I'm {props.age} years old</p>
+               <p>
+                I'm {props.name}. I'm {props.text}.
+               </p>
                <p>{props.children}</p>
                <input type="text" onChange={props.changed} value={props.name}/>
+               <button  onClick={props.click}>Send</button>
           </div>
      )
 }
 
-export default person;
+person.protoTypes = {
+     click: PropTypes.func,
+     name: PropTypes.string,
+     age: PropTypes.number,
+     changed: PropTypes.func
+}
+
+export default Radium(person);

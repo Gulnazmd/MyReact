@@ -1,0 +1,25 @@
+
+.Pstyle {
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 28px;
+    color: red;
+    padding-left: 30px;
+
+   }
+.MySelect {
+    color: rgb(230, 23, 23);
+    width: 80px;
+    border-color: rgb(241, 102, 102);
+    outline: none;
+}
+.MyCard {
+    background-color: #F8AFA6;
+    border: 1px solid #F8AFA6;
+    box-shadow: 0 2px 2px #F79489;
+    width: 400px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 10px;
+  }

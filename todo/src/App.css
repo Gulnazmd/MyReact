@@ -3,3 +3,14 @@
   background-color: rgb(161, 247, 253);
 }
 
+button {
+  background-color: #3a6351;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+}
+button:focus {
+  outline: none;
+}

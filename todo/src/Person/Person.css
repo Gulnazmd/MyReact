@@ -1,5 +1,5 @@
 .Person {
-    width: 40%;
+    width: 30%;
     justify-content: center;
     text-align: center;
     background-color: rgb(238, 238, 238);
@@ -7,4 +7,5 @@
     box-shadow: 0 2px 2px #aeaeae;
     margin: 20px auto;
     border-radius: 10px;
+    padding: 20px 30px;
 }
