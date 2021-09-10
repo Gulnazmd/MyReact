@@ -1,0 +1,68 @@
+.Main {
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain
+    }
+
+.Leaf {
+    height: 200px;
+    width: 250px;
+    position: absolute;
+}
+#First {
+    left: 10px;
+    top: 13px;
+}
+#Second {
+    top: -48px;
+}
+.Photo {
+    object-fit: cover;
+    height: 100vh;
+    width: 450px;
+}
+.PhotoDivSmall {
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    background-color: rgb(58, 54, 54);
+    margin: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    align-items: center;
+}
+.PhotoDivBig {
+    position: absolute;
+    width: 480px;
+    height: 160px;
+    background-color: black; 
+    align-items: center;
+    top: calc(50vh - 275px + 350px);
+}
+h1 {
+    position: relative;
+    z-index: 1;
+    font-family: cursive;
+}
+span {
+    width: 120px;
+    height: 1px;
+    background-color: #FACE7F;
+    animation: lineMove 2s linear 1; 
+    margin-left: -60px;
+    margin-top: -5%;
+    z-index: 1;
+    position: absolute;
+}
+@keyframes lineMove {
+    from {
+        width:0px;
+    }
+    to{
+        width:122px;
+    }
+}
