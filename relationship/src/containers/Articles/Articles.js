@@ -19,7 +19,7 @@ class Articles extends Component {
                     <nav>
                         <ul>
                             <li><Link to="/" exact>Home</Link></li>
-                            <li><Link to="/article/" exact>Article by Sister Azeem Unnisa</Link></li>
+                            <li><Link to="/article/" exact>Articles</Link></li>
                         </ul>
                     </nav>
                 </header>

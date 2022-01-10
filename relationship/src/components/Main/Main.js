@@ -3,7 +3,7 @@ import './Main.css'
 
 const Main = (props) => (
         <div className="Name">
-            <h1>Prophet Muhammed ﷺ - The Greatest Husband</h1>
+            <h1>Welcome to MaturDEV</h1>
         </div>
 )
 
